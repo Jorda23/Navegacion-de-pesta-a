@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Navegacion con tabs</title>
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="font-awesome.css">
+
+	<link rel="stylesheet" href="css/CardMovies.css">
+	<link rel="stylesheet" href="css/CardSeries.css">
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="js/main.js"></script>
+</head>
+<body>
+	<div class="wrap">
+		<ul class="tabs">
+			<li><a href="#tab1"><span class="tab-text">Peliculas</span></a></li>
+			<li><a href="#tab2"><span class="tab-text">Series</span></a></li>
+		</ul>
+
+		<div class="secciones">
+			<article id="tab1">
+				<div class="container">
+					<div class="card imageOne" alt="..." loading="lazy">
+						<div class="content">
+								<a href="#">More information</a>
+						</div>
+					</div>
+					<div class="card imageTwo " alt="..." loading="lazy">
+						<div class="content">
+								<a href="#">More information</a>
+						</div>
+					</div>
+					<div class="card imageThree" alt="..." loading="lazy">
+						<div class="content">
+								<a href="#">More information</a>
+						</div>
+					</div>
+					<div class="card imageFour" alt="..." loading="lazy">
+						<div class="content">
+								<a href="#">More information</a>
+						</div>
+					</div>
+					<div class="card imageFive" alt="..." loading="lazy">
+						<div class="content">
+								<a href="#">More information</a>
+						</div>
+					</div>
+					<div class="card imageSix" alt="..." loading="lazy">
+						<div class="content">
+								<a href="#">More information</a>
+						</div>
+					</div>
+					<div class="card imageSeven" alt="..." loading="lazy">
+						<div class="content">
+								<a href="#">More information</a>
+						</div>
+					</div>
+					<div class="card imageEight" alt="..." loading="lazy">
+						<div class="content">
+								<a href="#">More information</a>
+						</div>
+					</div>
+					<div class="card imageNine" alt="..." loading="lazy">
+						<div class="content">
+								<a href="#">More information</a>
+						</div>
+					</div>
+					<div class="card imageTen" alt="..." loading="lazy">
+						<div class="content">
+								<a href="#">More information</a>
+						</div>
+					</div>
+					<form action="" class="input-group">
+						<input href="#" type="submit" class="boton" value="See more">
+					 </form>
+				</div>
+			</article>
+
+			<article id="tab2">
+				<div class="containerTwo">
+					<div class="cardTwo imageOne" alt="..." loading="lazy">
+						<div class="content">
+								<a href="#">More information</a>
+						</div>
+					</div>
+					<div class="cardTwo imageTwo" alt="..." loading="lazy">
+						<div class="content">
+								<a href="#">More information</a>
+						</div>
+					</div>
+					<div class="cardTwo imageThree" alt="..." loading="lazy">
+						<div class="content">
+								<a href="#">More information</a>
+						</div>
+					</div>
+					<div class="cardTwo imageFour" alt="..." loading="lazy">
+						<div class="content">
+								<a href="#">More information</a>
+						</div>
+					</div>
+					<div class="cardTwo imageFive" alt="..." loading="lazy">
+						<div class="content">
+								<a href="#">More information</a>
+						</div>
+					</div>
+					<div class="cardTwo imageSix" alt="..." loading="lazy">
+						<div class="content">
+								<a href="#">More information</a>
+						</div>
+					</div>
+					<div class="cardTwo imageSeven" alt="..." loading="lazy">
+						<div class="content">
+								<a href="#">More information</a>
+						</div>
+					</div>
+					<div class="cardTwo imageEight" alt="..." loading="lazy">
+						<div class="content">
+								<a href="#">More information</a>
+						</div>
+					</div>
+					<div class="cardTwo imageNine" alt="..." loading="lazy">
+						<div class="content">
+								<a href="#">More information</a>
+						</div>
+					</div>
+					<div class="cardTwo imageTen" alt="..." loading="lazy">
+						<div class="content">
+								<a href="#">More information</a>
+						</div>
+					</div>
+
+					<form action="" class="input-group">
+						<input href="#" type="submit" class="boton" value="See more">
+					</form>
+			
+				</div>
+			</article>
+		</div>
+
+		<!-- at the end of the body -->
+		<script type="text/javascript" src="js/main.js"></script>
+		<script>
+			VanillaTilt.init(document.querySelectorAll(".card, .cardTwo"),
+			{
+				max: 25,
+				speed: 400,
+				glare: true,
+				"max-glare": 1,
+			});
+		</script>
+	</div>
+
+	
+</body>
+</html>
