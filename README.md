@@ -1,2 +1,2 @@
-# Navegacion-de-pesta-a
+# Navegacion-Por-Pestaña
 Parte de la navegacion por pestaña
